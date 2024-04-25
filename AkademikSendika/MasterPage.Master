@@ -4,50 +4,43 @@
 
 <html>
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <link rel="stylesheet" href=
-"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src=
-"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
-    </script>
-    <script src=
-"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
-    </script>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <style>
-  
-
-    
-</style>
-
+        .navbar-brand {
+            background-color: dimgray !important;
+        }
+    </style>
 </head>
 <body>
+
 <div>
-  <div>
-    <nav class="navbar navbar-inverse" style="height: 80px; width: 100%; display: flex; justify-content: space-between; align-items: center;"> 
+    <nav class="navbar navbar-inverse" style="height: 80px; width: 100%; display: flex; justify-content: space-between; align-items: center; background-color: #0056b3;"> 
         <div class="container-fluid" style="width: 80%; display: flex; justify-content: flex-start; align-items: center;"> 
             <div class="navbar-header" style="margin-right: 20px;">
-                <a class="navbar-brand" href="#" style="font-size: 2vw; height: 100px; display: flex; align-items: center;"> 
+                <a class="navbar-brand" href="#" style="font-size: 2vw; height: 61px; display: flex; align-items: center; padding: 10px; width: 488px;"> 
                     <img src="https://www.enerjiis.org.tr/tema/genel/uploads/logo/Enerji-logo.png" style="display: inline-block; width: 10%; max-width: 50px; margin-right: 20px;"> 
-                    ENERJİ İŞ SENDİKASI
+                    <span style="color: whitesmoke;">ENERJİ İŞ SENDİKASI</span>
                 </a>
             </div>
             <ul class="nav navbar-nav" style="display: flex; align-items: center; flex: 1;"> 
-                <li class="active" style="margin-right: 20px;"><a href="#" style="font-size: 1.2vw; color: white;">Anasayfa</a></li> 
+                <li class="active" style="margin-right: 20px; background-color: transparent;"><a href="#" style="font-size: 1.2vw; color: white;background-color:#0056b3;">Anasayfa</a></li> 
                 <li style="margin-right: 20px;"><a href="#" style="font-size: 1.2vw; color: white;">Makaleler</a></li> 
             </ul>
         </div>       
         <div style="display: flex; align-items: center;">
             <ul style="display: flex;">
-                <li style="margin-top:6px; margin-right: 20px;"><span class="glyphicon glyphicon-user" style="color: white; font-size: 1.5vw; margin-right: 5px;"></span><a href="RegisterPage.aspx" style="font-size: 1vw; color: white;">Kayıt Ol</a></li> 
-                <li style="margin-top:6px; margin-right: 7px;" ><span class="glyphicon glyphicon-log-in" style="color: white; font-size: 1.5vw; margin-right: 5px;"></span> <a href="#" style="font-size: 1vw; color: white;">Giriş Yap</a></li> 
+                <li style="margin-top:6px; margin-right: 20px;"><span class="glyphicon glyphicon-user" style="color: white; font-size: 1.5vw; margin-right: 5px;"></span><a href="#" style="font-size: 1vw; color: white;">Kayıt Ol</a></li> 
+                <li style="margin-top:6px; margin-right: 7px;" ><span class="glyphicon glyphicon-log-in" style="color: white; font-size: 1.5vw; margin-right: 5px;"></span> <a href="Login.aspx" style="font-size: 1vw; color: white;">Giriş Yap</a></li> 
             </ul>
         </div>
     </nav>
-  </div>
 </div>
 
 <form id="form1" runat="server">
