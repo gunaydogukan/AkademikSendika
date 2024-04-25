@@ -26,7 +26,7 @@
 </head>
 <body>
 <div>
-<div>
+  <div>
     <nav class="navbar navbar-inverse" style="height: 80px; width: 100%; display: flex; justify-content: space-between; align-items: center;"> 
         <div class="container-fluid" style="width: 80%; display: flex; justify-content: flex-start; align-items: center;"> 
             <div class="navbar-header" style="margin-right: 20px;">
@@ -42,13 +42,13 @@
         </div>       
         <div style="display: flex; align-items: center;">
             <ul style="display: flex;">
-                <li style="margin-top:6px; margin-right: 20px;"><span class="glyphicon glyphicon-user" style="color: white; font-size: 1.5vw; margin-right: 5px;"></span><a href="#" style="font-size: 1vw; color: white;">Kayıt Ol</a></li> 
+                <li style="margin-top:6px; margin-right: 20px;"><span class="glyphicon glyphicon-user" style="color: white; font-size: 1.5vw; margin-right: 5px;"></span><a href="RegisterPage.aspx" style="font-size: 1vw; color: white;">Kayıt Ol</a></li> 
                 <li style="margin-top:6px; margin-right: 7px;" ><span class="glyphicon glyphicon-log-in" style="color: white; font-size: 1.5vw; margin-right: 5px;"></span> <a href="#" style="font-size: 1vw; color: white;">Giriş Yap</a></li> 
             </ul>
         </div>
     </nav>
+  </div>
 </div>
-
 
 <form id="form1" runat="server">
     <div>
