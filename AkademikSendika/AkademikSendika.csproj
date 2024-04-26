@@ -43,6 +43,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net, Version=2.0.17.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.17\lib\net45\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -68,7 +71,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AnaSayfa.aspx" />
+    <Content Include="kayitEkrani.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="Makale.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -79,12 +84,26 @@
     <Compile Include="AnaSayfa.aspx.designer.cs">
       <DependentUpon>AnaSayfa.aspx</DependentUpon>
     </Compile>
+    <Compile Include="kayitEkrani.aspx.cs">
+      <DependentUpon>kayitEkrani.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kayitEkrani.aspx.designer.cs">
+      <DependentUpon>kayitEkrani.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Makale.aspx.cs">
+      <DependentUpon>Makale.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Makale.aspx.designer.cs">
+      <DependentUpon>Makale.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
