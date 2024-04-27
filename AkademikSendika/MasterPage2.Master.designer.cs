@@ -11,7 +11,7 @@ namespace AkademikSendika
 {
 
 
-    public partial class MasterPage
+    public partial class MasterPage2
     {
 
         /// <summary>
@@ -78,21 +78,21 @@ namespace AkademikSendika
         protected global::System.Web.UI.WebControls.Button Button2;
 
         /// <summary>
-        /// KayitOl denetimi.
+        /// Profilim denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik olarak oluşturulan alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button KayitOl;
+        protected global::System.Web.UI.WebControls.Button Profilim;
 
         /// <summary>
-        /// GirisYap denetimi.
+        /// CikisYap denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik olarak oluşturulan alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button GirisYap;
+        protected global::System.Web.UI.WebControls.Button CikisYap;
     }
 }

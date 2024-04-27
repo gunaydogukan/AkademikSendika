@@ -71,9 +71,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AnaSayfa.aspx" />
+    <Content Include="AnaSayfa2.aspx" />
     <Content Include="kayitEkrani.aspx" />
     <Content Include="Login.aspx" />
-    <Content Include="Makale.aspx" />
+    <Content Include="MakaleYaz.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -83,6 +84,13 @@
     </Compile>
     <Compile Include="AnaSayfa.aspx.designer.cs">
       <DependentUpon>AnaSayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AnaSayfa2.aspx.cs">
+      <DependentUpon>AnaSayfa2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AnaSayfa2.aspx.designer.cs">
+      <DependentUpon>AnaSayfa2.aspx</DependentUpon>
     </Compile>
     <Compile Include="kayitEkrani.aspx.cs">
       <DependentUpon>kayitEkrani.aspx</DependentUpon>
@@ -98,12 +106,12 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Makale.aspx.cs">
-      <DependentUpon>Makale.aspx</DependentUpon>
+    <Compile Include="MakaleYaz.aspx.cs">
+      <DependentUpon>MakaleYaz.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Makale.aspx.designer.cs">
-      <DependentUpon>Makale.aspx</DependentUpon>
+    <Compile Include="MakaleYaz.aspx.designer.cs">
+      <DependentUpon>MakaleYaz.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
@@ -112,10 +120,18 @@
     <Compile Include="MasterPage.Master.designer.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
+    <Compile Include="MasterPage2.Master.cs">
+      <DependentUpon>MasterPage2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage2.Master.designer.cs">
+      <DependentUpon>MasterPage2.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="MasterPage.Master" />
+    <Content Include="MasterPage2.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

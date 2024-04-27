@@ -50,7 +50,7 @@ namespace AkademikSendika
                         Session["UserId"] = email;
 
                         // Eğer kullanıcı varsa Anasayfa.aspx'e yönlendirelim
-                        Response.Redirect("Anasayfa.aspx");
+                        Response.Redirect("Anasayfa2.aspx");
                     }
                     else
                     {

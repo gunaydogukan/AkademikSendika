@@ -1,18 +1,15 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="AkademikSendika.MasterPage" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage2.master.cs" Inherits="AkademikSendika.MasterPage2" %>
 
 <!DOCTYPE html>
 
 <html>
 <head runat="server">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <style>
+            <style>
     body, html {
         margin: 0;
         padding: 0;
@@ -38,15 +35,15 @@
     }
 
     .btn {
-        padding: 10px 15px; 
+        padding: 10px 15px;
         font-size: 1rem; 
         min-width: 120px; 
     }
 </style>
+
 </head>
 <body>
-
-<form id="form1" runat="server">
+ <form id="form1" runat="server">
     <div id="container">
         <div id="header">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
@@ -56,15 +53,14 @@
             <asp:Button ID="Button1" runat="server" Text="Anasayfa" CssClass="btn btn-primary" style="margin-left: 15px;" BackColor="#0056B3" ForeColor="White" OnClick="Button1_Click"  />
             <asp:Button ID="Button2" runat="server" Text="Makaleler" CssClass="btn btn-primary" style="margin-left: 15px;" BackColor="#0056B3" ForeColor="White" OnClick="Button2_Click" />
              <div style="margin-left: auto;">
-            <asp:Button ID="KayitOl" runat="server" Text="Kayıt Ol" CssClass="btn btn-primary" style="margin-left: 15px;" BackColor="#009933" ForeColor="White" OnClick="KayitOl_Click"    />
-            <asp:Button ID="GirisYap" runat="server" Text="Giriş Yap" CssClass="btn btn-primary" style="margin-left: 15px;" BackColor="#0066CC" ForeColor="White" OnClick="GirisYap_Click" />
+            <asp:Button ID="Profilim" runat="server" Text="Profilim" CssClass="btn btn-primary" style="margin-left: 15px;" BackColor="#621ED9" ForeColor="White" OnClick="Profilim_Click"    />
+            <asp:Button ID="CikisYap" runat="server" Text="Çıkış Yap" CssClass="btn btn-primary" style="margin-left: 15px;" BackColor="#E10D0D" ForeColor="White" OnClick="CikisYap_Click"  />
             
        </div>
    
         </div>
     </div>
 </form>
-
 
 </body>
 </html>
