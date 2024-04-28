@@ -47,7 +47,7 @@
     <div id="container">
         <div id="header">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+</asp:ContentPlaceHolder>
             <asp:Image ID="Image1" runat="server" Height="70px" Width="80px" ImageUrl="https://enerjiis.org.tr/tema/genel/uploads/logo/Enerji-logo.png" BackColor="#CCCCCC"  />
             <asp:Label ID="Label1" runat="server" Text="ENERJİ İŞ SENDİKASI" ForeColor="White" Font-Bold="True" Font-Size="Large" style="margin-left: 15px;"></asp:Label>
             <asp:Button ID="Button1" runat="server" Text="Anasayfa" CssClass="btn btn-primary" style="margin-left: 15px;" BackColor="#0056B3" ForeColor="White" OnClick="Button1_Click"  />
@@ -59,7 +59,10 @@
        </div>
    
         </div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+</asp:ContentPlaceHolder>
     </div>
+            
 </form>
 
 </body>

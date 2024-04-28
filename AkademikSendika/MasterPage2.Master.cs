@@ -14,13 +14,13 @@ namespace AkademikSendika
             // Sayfa yüklendiğinde kontrol et
             if (Session["UserId"] == null)
             {
-                Response.Redirect("AnaSayfa.aspx");
+               // Response.Redirect("AnaSayfa.aspx");
             }
         }
 
         protected void Profilim_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Profil.aspx");
+            Response.Redirect("Profilim.aspx");
         }
 
         protected void CikisYap_Click(object sender, EventArgs e)

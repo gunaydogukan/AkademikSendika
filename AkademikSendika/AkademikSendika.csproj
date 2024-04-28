@@ -75,6 +75,8 @@
     <Content Include="kayitEkrani.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="MakaleYaz.aspx" />
+    <Content Include="ProfilDuzenle.aspx" />
+    <Content Include="Profilim.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -126,6 +128,20 @@
     </Compile>
     <Compile Include="MasterPage2.Master.designer.cs">
       <DependentUpon>MasterPage2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ProfilDuzenle.aspx.cs">
+      <DependentUpon>ProfilDuzenle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProfilDuzenle.aspx.designer.cs">
+      <DependentUpon>ProfilDuzenle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profilim.aspx.cs">
+      <DependentUpon>Profilim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profilim.aspx.designer.cs">
+      <DependentUpon>Profilim.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
