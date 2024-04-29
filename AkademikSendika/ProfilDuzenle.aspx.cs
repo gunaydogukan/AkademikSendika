@@ -73,7 +73,7 @@ namespace AkademikSendika
                     {
 
                         ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Profil başarıyla güncellendi');", true);
-                        Response.AppendHeader("Refresh", "3;url=Profilim.aspx");
+                        Response.AppendHeader("Refresh", "3;url=Profilim.aspx"); //yeniler 3 saniye sonra profilim pageine atar..
                         Mesaj.Text = "Güncelleme başarıyla gerçekleşti.";
                     }
                     else { 
